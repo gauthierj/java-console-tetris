@@ -1,0 +1,70 @@
+# =========================
+# Maven
+# =========================
+/target/
+
+# =========================
+# Maven Wrapper
+# =========================
+# On garde les fichiers nécessaires au wrapper
+!mvnw
+!mvnw.cmd
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# On ignore les autres fichiers `.jar` par défaut
+*.jar
+*.war
+*.ear
+
+# Optionnel : si tu veux ignorer jvm.config (souvent local)
+.mvn/jvm.config
+
+# =========================
+# IDEs
+# =========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =========================
+# Logs / Temp files
+# =========================
+*.log
+*.tmp
+*.swp
+*.bak
+*.orig
+hs_err_pid*.log
+
+# =========================
+# OS-specific
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environnements / secrets
+# =========================
+.env
+*.env
+.env.*
